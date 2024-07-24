@@ -32,8 +32,9 @@ const links: NavDescriptor[] = [
 
 export default async function PrimaryNav() {
   const [isOpen, setIsOpen] = useState(false); // For the nav menu.
-  const session = await auth();
-  const isAuthed = session.user !== null ? true : false;
+  // const session = await auth();
+  // const isAuthed = session.user !== null ? true : false;
+  const isAuthed = false;
 
   return (
     <div
