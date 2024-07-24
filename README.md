@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Here is the formatting for the .env files.
 
-### process.env
+### .env
 
 ```dotenv
 # Database postgresql connection.
