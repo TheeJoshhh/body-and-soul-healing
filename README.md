@@ -27,7 +27,9 @@ Here is the formatting for the .env files.
 DATABASE_URL=
 DIRECT_URL=
 # Email Authentication
-EMAIL_SERVER=
+EMAIL_HOST=
+EMAIL_USER=
+EMAIL_PASS=
 EMAIL_FROM=
 # Google Authentication
 GOOGLE_CLIENT_ID=
