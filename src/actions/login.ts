@@ -35,7 +35,10 @@ export const login = async (values: z.infer<typeof LoginSchema>) => {
       verificationToken.email,
       verificationToken.token
     );
-    return verificationEmailResult;
+    if (verificationEmailResult.success)
+      return { success: verificationEmailResult.success };
+    if (verificationEmailResult.error)
+      return { error: verificationEmailResult.error };
   }
 
   try {
