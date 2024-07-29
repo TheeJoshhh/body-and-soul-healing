@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Disclaimer!
+I'm new to NextJS and therefore actively learning how to use it. None of my code is copied from external sources but I have used several resources and guides. I'll list any significant resources below.
+* [NextJS Authentication Guide](https://www.youtube.com/watch?v=1MTyCvS05V4&t=17471s)
+  * I used this guide for learning the tools and techniques to create a secure and enjoyable authentication experience for my app.
+
 ## Getting Started
 
 First, run the development server:
